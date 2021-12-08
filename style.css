@@ -13,7 +13,7 @@
 }
 
 #dateinput{
-    border: 2px solid rgb(16, 113, 145);
+    border: 2px solid var(--primary-color);
     padding: 1.2rem;
     border-radius: 1rem;
     margin: 2rem;
@@ -40,5 +40,15 @@ button:hover{
     font-weight: bold;
 }
 
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 0.3rem;
+    font-weight: bold;
+}
 
+.link:hover{
+    color: var(--primary-color);
+    
+}
 
