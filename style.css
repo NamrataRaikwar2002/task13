@@ -1,0 +1,44 @@
+:root{
+    --primary-color:rgb(16, 113, 145)
+}
+
+.app{
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid var(--primary-color);
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-inline-size:25rem;
+    margin: auto;
+}
+
+#dateinput{
+    border: 2px solid rgb(16, 113, 145);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+#Button{
+    display: block;
+    margin: auto;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 1rem;
+    font-size: large;
+}
+
+button:hover{
+    background-color:var(--primary-color) ;
+}
+
+#out-put{
+    padding: 1.7rem;
+    border-radius:0.2rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+
+
