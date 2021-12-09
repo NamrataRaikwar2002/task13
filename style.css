@@ -1,12 +1,14 @@
 :root{
     --primary-color:rgb(16, 113, 145)
 }
-
+body{
+    background-color: rgb(106, 209, 166);
+}
 .app{
     text-align: center;
     padding: 2rem;
-    border: 2px solid var(--primary-color);
-    background-color: aliceblue;
+    /* border: 2px solid var(--primary-color); */
+    /* background-color: aliceblue; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-inline-size:25rem;
     margin: auto;
